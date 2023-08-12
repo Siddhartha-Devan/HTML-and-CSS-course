@@ -1,0 +1,54 @@
+.whole-block{
+    display: inline-block;
+    height: 230px;
+    width: 140px;
+    background-color: ;
+    margin: 5px 5px 5px 5px;
+    border-style: none;
+    border-width: 0.2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.429);
+    vertical-align: top;
+}
+
+
+.profile-pic{
+    height: 120px;
+    width:100%;
+    border: 20px;
+    object-position: 0px 0px;
+    object-fit: cover;
+}
+
+.name{
+    margin-left: 10px;
+    margin-bottom: 1px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.details{
+    margin-left: 10px;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.578);
+}
+
+.buttons{
+    padding: 7px 15px 7px 15px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgba(0, 119, 255, 0.881);
+    border-style: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.buttons:hover{
+    color: rgba(0, 119, 255, 0.881);
+    background-color: white;
+    border-color: rgba(0, 119, 255, 0.881);
+    border-style: solid;
+    transition-duration: 0.2s;
+}
