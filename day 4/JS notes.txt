@@ -1,0 +1,12 @@
+JS: it is an interpreted lang (that's why it is a script lang)
+	var, let and const.
+		const = just like static variable in python (eg. pi, g, e).
+		var   = u can change the values.
+		let   = var is a global scope variable, whereas let is a local scope variable.
+
+console.log(  ) : used to print output.
+
+
+
+
+
