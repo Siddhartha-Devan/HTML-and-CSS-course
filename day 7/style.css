@@ -1,0 +1,19 @@
+.flex-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.home{
+    background-color: yellowgreen;
+    width: 100px;
+}
+
+.search{
+    background-color: aliceblue;
+    ;flex: 1;
+}
+
+.download{
+    background-color: antiquewhite;
+    width: 120px;
+}
