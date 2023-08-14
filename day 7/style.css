@@ -1,6 +1,7 @@
 .flex-box{
     display: flex;
     flex-direction: row;
+    height: 40px;
 }
 
 .home{
@@ -10,10 +11,13 @@
 
 .search{
     background-color: aliceblue;
-    ;flex: 1;
+    flex: 1;
+    max-width: 450px;
 }
 
 .download{
     background-color: antiquewhite;
     width: 120px;
+    border: ;
+    
 }
