@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     height: 40px;
+    align-content: center;
+    justify-items: center;
 }
 
 .home{
@@ -10,12 +12,20 @@
 }
 
 .search{
-    background-color: aliceblue;
+    background-color: rgb(12, 12, 230);
     flex: 1;
     max-width: 450px;
 }
 
-.download{
+.searchbar{
+    background-color: aliceblue;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 40%;
+}
+
+.download {
     background-color: antiquewhite;
     width: 120px;
     border: ;
