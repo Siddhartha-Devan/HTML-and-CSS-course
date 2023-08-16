@@ -1,0 +1,26 @@
+/* styles.css */
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 300px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
