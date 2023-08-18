@@ -36,8 +36,17 @@
 }
 
 .mail-content{
+    display: flex;
     background-color: blueviolet;
     flex: 1;
+    grid-template-columns: 20px 20px 20px;
+    flex-direction: column;
 }
 
+.title{
+    display: flex;
+    background-color: azure;
+    grid-template-columns: 270px 80px;
+    flex-direction: row;
+}
 
