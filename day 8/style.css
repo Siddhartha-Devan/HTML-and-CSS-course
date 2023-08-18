@@ -26,6 +26,7 @@
     height: 60px;
     width:350px;
     grid-template-columns: 50px 300px;
+    align-items: center;
 }
 
 .profile-pic{
@@ -45,8 +46,22 @@
 
 .title{
     display: flex;
-    background-color: azure;
-    grid-template-columns: 270px 80px;
+    background-color: rgb(210, 220, 220);
+    grid-template-rows: 270px 80px;
     flex-direction: row;
 }
 
+.sender{
+    display: flex;
+    font-size: large;
+    font-weight: 800;
+    color: black;
+}
+
+.time{
+    display: flex;
+    font-size: small;
+    font-weight: 400;
+    color: rgb(133, 132, 132);
+    
+}
