@@ -1,0 +1,43 @@
+.main-flex{
+    display: flex;
+    grid-template-rows: 20px 50px 50px 50px;
+    flex-direction: column;
+    width: 350px;
+}
+
+.all-inbox{
+    background-color: aqua;
+}
+
+.tom{
+    background-color: antiquewhite;
+}
+
+.jerry{
+    background-color: aquamarine;
+}
+
+.spike{
+    background-color: antiquewhite;
+}
+
+.full-mail{
+    display: flex;
+    height: 60px;
+    width:350px;
+    grid-template-columns: 50px 300px;
+}
+
+.profile-pic{
+    background-color: greenyellow;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.mail-content{
+    background-color: blueviolet;
+    flex: 1;
+}
+
+
