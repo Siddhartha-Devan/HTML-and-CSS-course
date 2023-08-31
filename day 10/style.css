@@ -1,0 +1,39 @@
+.b-b{
+    background: linear-gradient(to right, rgb(22, 21, 83), #2d0635);
+    /* background-color: linear-gradient(120deg, rgb(94, 219, 32), rgb(44, 89, 201)); */
+}
+
+.main-title{
+    color: white;
+    text-align: center;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    /* background-color: antiquewhite; */
+    margin: 20px 200px 200px 200px;
+    gap: 100px;
+}
+
+.boxes{
+    height: 250px;
+    width: 200px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin:20px;
+    /* text-align: center; */
+}
+
+.sub-title{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
