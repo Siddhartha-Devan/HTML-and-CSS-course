@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .b-b{
     background: linear-gradient(to right, rgb(22, 21, 83), #2d0635);
     /* background-color: linear-gradient(120deg, rgb(94, 219, 32), rgb(44, 89, 201)); */
@@ -10,11 +16,12 @@
 }
 
 .main-grid{
-    display: grid;
+    display: flex;
     grid-template-columns: 300px 300px 300px;
     /* background-color: antiquewhite; */
-    margin: 20px 200px 200px 200px;
-    gap: ;
+    margin: 30px 200px 200px 200px;
+    justify-content: space-around;
+    gap: 100px;
 }
 
 .boxes{
@@ -22,12 +29,14 @@
     width: 200px;
     border-color: white;
     border-style: solid;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     border-width: 3px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    margin:20px;
+    margin-top:20px;
     /* text-align: center; */
+    /* margin-left: ; */
+    border-box
 }
 
 .sub-title{
@@ -51,5 +60,4 @@
     border-radius: 6px;
     font-size: 1em;
     font-weight: 500;
-
 }
