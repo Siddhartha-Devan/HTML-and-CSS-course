@@ -27,17 +27,33 @@
 .boxes{
     height: 250px;
     width: 200px;
-    border-color: white;
+    border-color: white; 
     border-style: solid;
     border-radius: 10px;
     border-width: 3px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     margin-top:20px;
-    /* text-align: center; */
+    text-align: center;
     /* margin-left: ; */
-    border-box
+     /* border-box */
+    position: relative;
+
 }
+
+/* .boxes::before{
+    content: '';
+    height: 256px;
+    width: 206px;
+    top: -3px;
+    left: -3px;
+    background: linear-gradient(to right, red, purple);
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+
+} */
+
 
 .sub-title{
     color: white;
@@ -51,7 +67,7 @@
     margin-top: 30px;
     height: 40px;
     width: 100px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     color: white;
     background-color: rgb(22, 21, 83);
     /* border-style: solid;
