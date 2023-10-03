@@ -17,5 +17,13 @@ document.querySelector('#sport').addEventListener('click', function(e){
     }else{
         targ.style.backgroundColor = 'gray'
     }
-
 })
+
+const sports = document.querySelector('#sport')
+const newSport = document.createElement('li')
+
+newSport.innerText = 'Tennis'
+newSport.setAttribute('class', 'box')
+newSport.setAttribute('id', 'tennis')
+
+sports.appendChild(newSport)
