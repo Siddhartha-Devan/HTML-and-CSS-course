@@ -1,4 +1,48 @@
-.test{
-    color: blue;
-    
+body{
+    height: 100vh;
+}
+
+.grad{
+    background: linear-gradient(to bottom left, rgb(31, 156, 50), rgb(212, 219, 21));
+    /* background-color: linear-gradient(120deg, rgb(94, 219, 32), rgb(44, 89, 201)); */
+}
+
+
+
+
+ul{
+    padding: 0px;
+    list-style-type: none;
+    /* background-color: blue; */
+  }
+
+.main-box{
+    /* padding: 20px 20px ; */
+    position: relative;
+    top: 200px;
+    left: 550px;
+    /* background-color: rgb(148, 51, 114); */
+    display:flex;
+    border-style: solid;
+    flex-direction: column;
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-radius: 10px;
+    height: auto;
+    width: 300px;
+}
+
+
+.box{
+    background-color: antiquewhite;
+    color: rgb(151, 24, 24);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 900;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px 20px 10px 20px;
 }
