@@ -12,11 +12,16 @@ document.querySelector('#sport').addEventListener('click', function(e){
 
     const targ = e.target
 
-    if (targ.style.backgroundColor === 'gray'){
-        targ.style.backgroundColor = 'antiquewhite'
-    }else{
-        targ.style.backgroundColor = 'gray'
-    }
+    if(targ.classList.contains('box')){
+
+        if (targ.style.backgroundColor === 'gray'){
+            targ.style.backgroundColor = 'antiquewhite'
+        }else{
+            targ.style.backgroundColor = 'gray'
+        }
+    }   
+    
+
 })
 
 const sports = document.querySelector('#sport')
